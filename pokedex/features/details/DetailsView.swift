@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DetailsView.swift
 //  pokedex
 //
 //  Created by Esdras Santos Gois on 14/11/23.
@@ -7,14 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DetailsView: View {
     var body: some View {
-        NavigationStack {
-            HomeView()
-        }
+        Text("Hello, Details!")
     }
 }
 
 #Preview {
-    ContentView()
+    DetailsView()
 }
